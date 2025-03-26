@@ -22,6 +22,7 @@ The project is about: The Cold Start phase occurs when new customers have just o
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
+![n8n workflow](/artifacts/arch/architecture.jpg)
 
 ## 💡 Inspiration
 The inspiration to create a project on AI-Driven Hyper-Personalization & Recommendations in banking stems from several key factors:
@@ -40,19 +41,19 @@ This method takes advantage of both models: the GBDT component captures complex 
 In the context of recommendation systems, once the GBDT + LR model is trained, it can be used to generate personalized product recommendations for customers. Given a customer's profile, item features, and user-item interactions, the model predicts the likelihood of user-item preferences. The items with the highest predicted probabilities are then recommended to the customer.
 
 1. **Implementation:**  
-      Once the recommendation model is developed and initially tested using validation data, it is essential to evaluate its performance using real examples from the subsequent period. This helps ensure that the model is both accurate and reliable by applying appropriate evaluation metrics and validation techniques.
-      Next, the model should be integrated into the bank's current infrastructure (e.g., CRM, mobile app, website accounts) to ensure seamless data transfer via APIs. It is also crucial to implement A/B testing to compare the effectiveness of your recommendation model against alternative approaches. This process enables continuous refinement and optimization based on user feedback and business objectives.
-      Given the highly regulated nature of the banking industry, it is also imperative that the system complies with all relevant privacy regulations. Adequate safeguards should be put in place to protect customer data before the model is deployed.  
+   Once the recommendation model is developed and initially tested using validation data, it is essential to evaluate its performance using real examples from the subsequent period. This helps ensure that the model is both accurate and reliable by applying appropriate evaluation metrics and validation techniques.
+   Next, the model should be integrated into the bank's current infrastructure (e.g., CRM, mobile app, website accounts) to ensure seamless data transfer via APIs. It is also crucial to implement A/B testing to compare the effectiveness of your recommendation model against alternative approaches. This process enables continuous refinement and optimization based on user feedback and business objectives.
+   Given the highly regulated nature of the banking industry, it is also imperative that the system complies with all relevant privacy regulations. Adequate safeguards should be put in place to protect customer data before the model is deployed.
 
 
 2. **Improvement:**  
    This project represents a simplified version of a real-world product recommendation system in the banking sector. Several areas can be improved in future work:
-   - **Feature Selection and Engineering:** Currently, the project relies only on customer features and purchasing behavior. Including additional product characteristics such as product category, customer segment, term, risk level, profitability, and variance would significantly enhance the accuracy and relevance of the recommendations.
-   - **Training and Testing Datasets:** In real-world scenarios, using a larger, more diverse set of training data would provide a more comprehensive understanding of customer behavior and population characteristics. Additionally, leveraging advanced infrastructure (e.g., cloud storage and computing resources) would expedite and improve the model training process.
-   - **Recommendation Methods:** While the models used in this project are well-established and effective in the industry, there are more advanced deep learning models, such as YouTubeDNN and DeepFM, that can uncover more complex patterns in the data and generate more precise recommendations. Furthermore, employing a hybrid model-one that combines multiple recommendation algorithms could further enhance the predictive power of the system.
+    - **Feature Selection and Engineering:** Currently, the project relies only on customer features and purchasing behavior. Including additional product characteristics such as product category, customer segment, term, risk level, profitability, and variance would significantly enhance the accuracy and relevance of the recommendations.
+    - **Training and Testing Datasets:** In real-world scenarios, using a larger, more diverse set of training data would provide a more comprehensive understanding of customer behavior and population characteristics. Additionally, leveraging advanced infrastructure (e.g., cloud storage and computing resources) would expedite and improve the model training process.
+    - **Recommendation Methods:** While the models used in this project are well-established and effective in the industry, there are more advanced deep learning models, such as YouTubeDNN and DeepFM, that can uncover more complex patterns in the data and generate more precise recommendations. Furthermore, employing a hybrid model-one that combines multiple recommendation algorithms could further enhance the predictive power of the system.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+- Python, JupyterNote, Decision Tree
 
 ## 🚧 Challenges We Faced
 - Designing a scalable architecture because of limited DataSet
@@ -64,20 +65,20 @@ Briefly outline the technologies, frameworks, and tools used in development.
    ```
 2. Install dependencies
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt (for Python)
    ```
 3. Run the project
    ```sh
-   npm start  # or python app.py
+   start  # or python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: TKinter
+- 🔹 Backend: Python
+- 🔹 Database: CSV
 
 ## 👥 Team
+- **Srinivasa Reddy Angaluri**
 - **Rishabh Sharma** - [GitHub](https://github.com/rishabhstar) | [LinkedIn](#)
 - **Karthik Vanka** - [GitHub](https://github.com/buddykartz) | [LinkedIn](#)
 - **Kuldeep Kumar** - [GitHub](https://github.com/chaudharyklbsimds) | [LinkedIn](#)
