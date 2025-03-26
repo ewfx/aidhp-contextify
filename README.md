@@ -17,8 +17,7 @@
 The project is about: The Cold Start phase occurs when new customers have just opened their accounts but have no transaction or product purchase history. In this phase, the project will leverage a popularity-based model to recommend the most popular, top-selling products to these customers.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 Video : https://github.com/ewfx/aidhp-contextify/blob/main/artifacts/Screen-Recording2.mp4  
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
